@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C186F929-C900-4901-8754-D5208685719A}</ProjectGuid>
+    <ProjectGuid>{72625EA1-E7AB-4F4E-A80E-8E75FDD7795D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>PangramApp</RootNamespace>
     <AssemblyName>PangramApp</AssemblyName>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PangramApp", "PangramApp\PangramApp.csproj", "{C186F929-C900-4901-8754-D5208685719A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PangramApp", "PangramApp\PangramApp.csproj", "{72625EA1-E7AB-4F4E-A80E-8E75FDD7795D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C186F929-C900-4901-8754-D5208685719A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C186F929-C900-4901-8754-D5208685719A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C186F929-C900-4901-8754-D5208685719A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C186F929-C900-4901-8754-D5208685719A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72625EA1-E7AB-4F4E-A80E-8E75FDD7795D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72625EA1-E7AB-4F4E-A80E-8E75FDD7795D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72625EA1-E7AB-4F4E-A80E-8E75FDD7795D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72625EA1-E7AB-4F4E-A80E-8E75FDD7795D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {ECCBC95D-E925-4F55-9793-4CC4FFF1C75D}
+		SolutionGuid = {3E3E33D7-2D57-4829-BBE0-FC50FFC3533F}
 	EndGlobalSection
 EndGlobal
