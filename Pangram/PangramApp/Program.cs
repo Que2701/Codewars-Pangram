@@ -11,7 +11,7 @@ namespace PangramApp
         static void Main(string[] args)
         {
             string str = "The quick brown fox jumps over the lazy dog.";
-            Console.WriteLine(IsPanagram(str).ToString());
+            Console.WriteLine(IsPangramV(str).ToString());
         }
 
         public static bool IsPanagram(string str)
@@ -41,6 +41,15 @@ namespace PangramApp
             });
 
             return listChar.Count == 0 ? true : false;
+        }
+
+        public static bool IsPangramV(string str)
+        {
+            string tmp = str.ToLower();
+            for (char c = 'a'; c <= 'z'; c++)
+                if (tmp.IndexOf(c) < 0)
+                    return false;
+            return true;
         }
     }
 }
