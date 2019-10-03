@@ -19,5 +19,28 @@ namespace PangramApp
             string alphabetLetters = "abcdefghijklmnopqrstuvwxyz";
             return str.ToLower().Where(x => alphabetLetters.Contains(x)).OrderBy(y => y).GroupBy(z => z).Select(a => a.Key).Count() == 26 ? true : false;
         }
+
+        public static bool IsPangramI(string str)
+        {
+            return str.Where(ch => Char.IsLetter(ch)).Select(ch => Char.ToLower(ch)).Distinct().Count() == 26;
+        }
+
+        public static bool IsPangramII(string str) =>
+          str.ToLower()
+             .Where(Char.IsLetter)
+             .Distinct()
+             .Count() == 26;
+
+        public static bool IsPangramIV(string str)
+        {
+            var listChar = "abcdefghijklmnopqrstuvwxyz".ToList();
+
+            str.ToLower().ToList().ForEach(x => {
+                if (listChar.Contains(x))
+                    listChar.Remove(x);
+            });
+
+            return listChar.Count == 0 ? true : false;
+        }
     }
 }
